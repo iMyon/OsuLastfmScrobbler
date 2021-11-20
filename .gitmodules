@@ -4,3 +4,6 @@
 [submodule "OsuSync/Sync/OsuRTDataProvider"]
 	path = OsuSync/Sync/OsuRTDataProvider
 	url = https://github.com/OsuSync/OsuRTDataProvider.git
+[submodule "OsuSync"]
+	path = OsuSync
+	url = https://github.com/OsuSync/Sync.git

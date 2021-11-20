@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync", "OsuSync\Sync\Sync\Sync.csproj", "{FBD514C2-2830-479E-B050-D1C383028456}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsuRTDataProvider", "OsuSync\Sync\OsuRTDataProvider\OsuRTDataProvider.csproj", "{D518DC59-CC9A-4886-839F-7691D5EFAE56}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsuLastfmScrobbler", "OsuLastfmScrobbler\OsuLastfmScrobbler.csproj", "{D3629697-0396-40E7-9E18-D665C5A9E9A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsuRTDataProvider", "OsuSync\OsuRTDataProvider\OsuRTDataProvider.csproj", "{D518DC59-CC9A-4886-839F-7691D5EFAE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync", "OsuSync\Sync\Sync.csproj", "{FBD514C2-2830-479E-B050-D1C383028456}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,6 +12,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3629697-0396-40E7-9E18-D665C5A9E9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3629697-0396-40E7-9E18-D665C5A9E9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3629697-0396-40E7-9E18-D665C5A9E9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3629697-0396-40E7-9E18-D665C5A9E9A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FBD514C2-2830-479E-B050-D1C383028456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FBD514C2-2830-479E-B050-D1C383028456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBD514C2-2830-479E-B050-D1C383028456}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -20,9 +24,5 @@ Global
 		{D518DC59-CC9A-4886-839F-7691D5EFAE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D518DC59-CC9A-4886-839F-7691D5EFAE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D518DC59-CC9A-4886-839F-7691D5EFAE56}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3629697-0396-40E7-9E18-D665C5A9E9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3629697-0396-40E7-9E18-D665C5A9E9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3629697-0396-40E7-9E18-D665C5A9E9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3629697-0396-40E7-9E18-D665C5A9E9A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

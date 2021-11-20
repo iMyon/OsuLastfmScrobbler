@@ -54,7 +54,7 @@ namespace OsuLastfmScrobbler.client
                     playStartTime = DateTime.Now;
                     UpdateNowPlaying();
                 }
-                if (lastBeatMap != null || lastBeatMap.BeatmapSetID != beatMap.BeatmapSetID)
+                if (lastBeatMap != null && lastBeatMap.BeatmapSetID != beatMap.BeatmapSetID)
                 {
                     UpdateNowPlaying();
                     var bm = lastBeatMap;
@@ -87,7 +87,7 @@ namespace OsuLastfmScrobbler.client
             if (duration <= 60000) return;
             var artist = bm.ArtistUnicode == "" ? bm.Artist : bm.ArtistUnicode;
             var title = bm.TitleUnicode == "" ? bm.Title : bm.TitleUnicode;
-            Logger.Info($"scrobble: {artist} - {title}");
+            Logger.Info($"scrobbled: {artist} - {title}");
             lastfmlient.Track.ScrobbleAsync(new Scrobble(artist, null, title, DateTime.UtcNow));
         }
 

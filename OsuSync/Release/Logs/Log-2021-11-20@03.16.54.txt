@@ -1,0 +1,11 @@
+[15:16:54] 读取中....
+[15:16:54] Created default Plugins folder : Q:\MISC\project\osu-lastfm-scrobbler\OsuLastfmScrobbler\OsuSync\Release\Plugins
+[15:16:54] 载入 InternalPlugin 中...
+[15:16:54] 已载入 1 个 插件
+[15:16:54] 已载入 0 个 直播源
+[15:16:54] 没有任何弹幕接收源,请检查Plugins目录或使用"plugins install DefaultPlugin"来安装默认插件
+[15:16:54] 已载入 0 个 Client
+[15:16:54] 已载入 19 个 命令
+[15:16:54] 已载入 0 个 过滤器
+[15:16:54] 准备就绪。
+[15:16:54] Fetch Sync update..
