@@ -34,7 +34,7 @@ cd OsuSync
 git clone https://github.com/OsuSync/OsuRTDataProvider.git
 ```
 1. Edit `OsuSync\Sync\Sync.csproj`, replace all `..\packages` with `..\..\packages`.
-2. Edit ``, replace `$(SolutionDir)\Sync\bin\$(ConfigurationName)\Plugins` with `$(SolutionDir)OsuSync\$(ConfigurationName)\Plugins`.
+2. Edit `OsuSync\OsuRTDataProvider\OsuRTDataProvider.csproj`, replace `$(SolutionDir)\Sync\bin\$(ConfigurationName)\Plugins` with `$(SolutionDir)OsuSync\$(ConfigurationName)\Plugins`.
 3. Build `Sync`
 4. Build `OsuRTDataProvider`
 5. Build or run `OsuLastfmScrobbler`
